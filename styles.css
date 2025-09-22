@@ -53,6 +53,10 @@
     scroll-behavior: smooth;
     min-height: 100vh;
   }
+
+html, body {
+  overflow-x: hidden;
+}
   
   /* Mobile fallback for background-attachment: fixed */
   @media (max-width: 768px) {
@@ -179,7 +183,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    border: 2px solid  #25D366,;
+    border: 2px solid #25D366;
   }
   
   .profile-name {
@@ -474,19 +478,19 @@
   
   .service-card:hover {
     border-color: rgba(19, 78, 74, 0.4);
-    transform: translateY(-8px) scale(1.02);
+    transform: translateY(-6px) scale(1.015);
     box-shadow: 0 20px 40px rgba(19, 78, 74, 0.25);
-    background: rgba(15, 20, 25, 0.8);
+    background: rgba(15, 20, 25, 0.75);
   }
   
   .service-icon {
-    font-size: 1.875rem;
-    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
     color: var(--primary);
   }
   
   .service-title {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.75rem;
   }
@@ -1193,6 +1197,24 @@
     .pricing-grid {
       gap: 1rem; /* Even smaller gap on very small screens */
     }
+
+    /* Ajustes adicionais mobile */
+    .portfolio-image img {
+      height: 12.5rem;
+    }
+
+    /* Suavizar hovers em telas muito pequenas */
+    .service-card:hover,
+    .benefit-card:hover,
+    .portfolio-item:hover,
+    .pricing-card:hover {
+      transform: none;
+      box-shadow: var(--card-shadow);
+    }
+
+    .portfolio-item:hover .portfolio-image img {
+      transform: none;
+    }
   }
   
   /* Footer */
@@ -1433,6 +1455,23 @@
     .pricing-grid {
       grid-template-columns: 1fr;
       gap: 1.5rem; /* Reduced gap for consistency */
+    }
+
+    /* Suavizar hovers e reduzir altura de imagens em tablets */
+    .portfolio-image img {
+      height: 14rem;
+    }
+
+    .service-card:hover,
+    .benefit-card:hover,
+    .portfolio-item:hover,
+    .pricing-card:hover {
+      transform: none;
+      box-shadow: var(--card-shadow);
+    }
+
+    .portfolio-item:hover .portfolio-image img {
+      transform: none;
     }
   }
   

@@ -195,7 +195,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize all features
   initScrollReveal();
-  initParallax();
   initSmoothScrolling();
   initMagneticButtons();
   initCTAButtons();

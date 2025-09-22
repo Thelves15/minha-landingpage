@@ -3,14 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thelves Andrade - Desenvolvedor Web Especialista</title>
+    <title>Desenvolvedor Web no Brasil | Sites que Convertem | Thelves Andrade</title>
+    <meta name="description" content="Transformo seu site em uma máquina de conversão. Criação de sites modernos, landing pages e otimização de performance (SEO/velocidade). Atendo clientes em todo o Brasil.">
+    <meta name="keywords" content="desenvolvedor web, criação de sites, landing page, SEO, otimização de performance, sites profissionais, conversão, geração de leads, Brasil">
+    <link rel="canonical" href="https://bythelves.site/">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Desenvolvedor Web no Brasil | Sites que Convertem | Thelves Andrade">
+    <meta property="og:description" content="Criação de sites e landing pages com foco em conversão, SEO e performance.">
+    <meta property="og:url" content="https://bythelves.site/">
+    <meta property="og:site_name" content="Thelves Andrade">
+    <meta property="og:image" content="https://bythelves.site/public/file-_1_.jpg">
+    <meta property="og:image:alt" content="Foto de Thelves Andrade, desenvolvedor web">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Desenvolvedor Web no Brasil | Sites que Convertem | Thelves Andrade">
+    <meta name="twitter:description" content="Sites modernos e rápidos, otimizados para conversão e SEO.">
+    <meta name="twitter:image" content="https://bythelves.site/public/file-_1_.jpg">
+
+    <!-- Favicons -->
+    <link rel="icon" href="public/file-_1_.jpg">
+
+    <!-- Performance: preconnect/preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="public/file-_1_.jpg">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Thelves Andrade",
+      "image": "https://bythelves.site/public/file-_1_.jpg",
+      "url": "https://bythelves.site/",
+      "telephone": "+55-98-97000-5227",
+      "email": "mailto:thelvesrocha2@gmail.com",
+      "areaServed": "BR",
+      "sameAs": [
+        "https://www.instagram.com/thel.dev/",
+        "https://github.com/Thelves15"
+      ],
+      "description": "Criação de sites e landing pages com foco em conversão, SEO e performance para todo o Brasil."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Serviços",
+      "itemListElement": [
+        {"@type": "Service", "position": 1, "name": "Sites que convertem", "description": "Sites modernos e responsivos focados em conversão"},
+        {"@type": "Service", "position": 2, "name": "Estratégia para leads", "description": "Captação e organização de leads"},
+        {"@type": "Service", "position": 3, "name": "Otimização de performance", "description": "SEO técnico e velocidade"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Portfólio",
+      "itemListElement": [
+        {"@type": "CreativeWork", "position": 1, "name": "Site Ana Clara Contabilidade", "url": "https://anaclaracontabilidade.netlify.app/"},
+        {"@type": "CreativeWork", "position": 2, "name": "Site Masterdecks", "url": "https://masterdecks.site/"},
+        {"@type": "CreativeWork", "position": 3, "name": "Site Lays Carla Nutri", "url": "https://layscarlanutri.netlify.app/"},
+        {"@type": "CreativeWork", "position": 4, "name": "Site Dr. Antonio Carlos", "url": "https://drantoniocarlos.netlify.app/"}
+      ]
+    }
+    </script>
 </head>
 <body>
     <main class="min-h-screen">
         <!-- Hero Section -->
-        <section class="hero-section">
+        <section class="hero-section" id="inicio">
             <div class="hero-background"></div>
             <div class="hero-overlay"></div>
             
@@ -22,7 +93,7 @@
                         <span class="logo-text">Thelves Andrade</span>
                     </div>
                     <div class="profile-section">
-                        <img src="/public/WhatsApp Image 2025-08-18 at 17.36.55.jpeg" alt="Thelves Andrade" class="profile-image">
+                        <img src="public/file-_1_.jpg" alt="Foto de perfil de Thelves Andrade, desenvolvedor web" class="profile-image" loading="lazy">
                         <div class="profile-info">
                             <div class="profile-name">Thelves Andrade</div>
                             <div class="profile-title">Desenvolvedor Web</div>
@@ -58,7 +129,7 @@
         </section>
 
         <!-- MEU PROCESSO Section -->
-        <section class="section process-section">
+        <section class="section process-section" id="processo">
             <div class="container">
                 <div class="section-header scroll-reveal">
                     <div class="badge">🚀 MEU PROCESSO</div>
@@ -89,43 +160,102 @@
             </div>
         </section>
 
-        <!-- O QUE EU FAÇO Section -->
-        <section class="section services-section">
+        <!-- Como Posso Transformar Seu Negócio Section -->
+        <section class="section services-section" id="transformacao">
             <div class="container">
                 <div class="section-header scroll-reveal">
-                    <div class="badge">⚡ O QUE EU FAÇO</div>
-                    <h2 class="section-title">
-                        Soluções que entregam <span class="gradient-text">clareza,</span><br>
-                        <span class="gradient-text">conversão</span> e <span class="gradient-text">resultado.</span>
-                    </h2>
+                    <h2 class="section-title">Como Posso Transformar Seu Negócio?</h2>
+                    <p class="section-subtitle">Transformo seu site em uma máquina de conversão, aumentando clientes e vendas.</p>
                 </div>
                 <div class="services-grid">
                     <div class="service-card scroll-reveal stagger-1">
-                        <div class="service-icon">🎯</div>
-                        <h3 class="service-title">Criação de sites estratégicos</h3>
-                        <p class="service-description">Do zero, com foco em identidade, jornada e performance.</p>
+                        <div class="service-icon">🚀</div>
+                        <h3 class="service-title">Sites que convertem</h3>
+                        <p class="service-description">Sites modernos e responsivos que convertem visitantes em clientes.</p>
                     </div>
                     <div class="service-card scroll-reveal stagger-2">
-                        <div class="service-icon">💰</div>
-                        <h3 class="service-title">Páginas de vendas e lançamentos</h3>
-                        <p class="service-description">Estrutura validada para converter leads em clientes.</p>
+                        <div class="service-icon">📈</div>
+                        <h3 class="service-title">Estratégia para leads</h3>
+                        <p class="service-description">Captação e organização de leads de forma eficiente.</p>
                     </div>
                     <div class="service-card scroll-reveal stagger-3">
-                        <div class="service-icon">🚀</div>
-                        <h3 class="service-title">Otimizações de performance</h3>
-                        <p class="service-description">Para acelerar, corrigir e destravar o que já existe.</p>
-                    </div>
-                    <div class="service-card scroll-reveal stagger-4">
-                        <div class="service-icon">🛡️</div>
-                        <h3 class="service-title">Hospedagem e manutenção</h3>
-                        <p class="service-description">Para você ter tranquilidade total depois do site no ar.</p>
+                        <div class="service-icon">⚡</div>
+                        <h3 class="service-title">Otimização de performance</h3>
+                        <p class="service-description">Sites rápidos, SEO-friendly e com excelente experiência do usuário.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Por que escolher trabalhar comigo Section -->
-        <section class="section benefits-section">
+        <!-- Portfolio Section -->
+        <section class="section portfolio-section" id="portfolio">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <div class="badge">🚀 PORTFÓLIO</div>
+                    <h2 class="section-title">
+                        Projetos que uniram <span class="gradient-text">estratégia,</span><br>
+                        <span class="gradient-text">design</span> e <span class="gradient-text">resultado.</span>
+                    </h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item card-3d scroll-reveal stagger-1">
+                        <a href="https://anaclaracontabilidade.netlify.app/" class="portfolio-link" target="_blank">
+                            <div class="portfolio-image">
+                                <img src="public/foto site contadora.png" alt="Portfólio: site de contabilidade desenvolvido por Thelves" loading="lazy">
+                                <div class="portfolio-badge">SITE CONTADORA</div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Site Ana Clara Contabilidade</h3>
+                                <p class="portfolio-description">Landing page com storytelling e foco em conversão.</p>
+                                <button class="btn-portfolio">Ver Projeto →</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-item card-3d scroll-reveal stagger-2">
+                        <a href="https://masterdecks.site/" class="portfolio-link" target="_blank">
+                            <div class="portfolio-image">
+                                <img src="public/Anotação 2025-08-18 174329.png" alt="Portfólio: site Masterdecks criado por Thelves" loading="lazy">
+                                <div class="portfolio-badge">SITE MASTERDECKS</div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Site Masterdecks</h3>
+                                <p class="portfolio-description">Automação e inteligência para negócios digitais.</p>
+                                <button class="btn-portfolio">Ver Projeto →</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-item card-3d scroll-reveal stagger-3">
+                        <a href="https://layscarlanutri.netlify.app/" class="portfolio-link" target="_blank">
+                            <div class="portfolio-image">
+                                <img src="public/Anotação 2025-08-18 174351.png" alt="Portfólio: site para nutricionista desenvolvido por Thelves" loading="lazy">
+                                <div class="portfolio-badge">SITE NUTRICIONISTA</div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Site Lays Carla Nutri</h3>
+                                <p class="portfolio-description">Estrutura validada para converter leads em clientes.</p>
+                                <button class="btn-portfolio">Ver Projeto →</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-item card-3d scroll-reveal stagger-4">
+                        <a href="https://drantoniocarlos.netlify.app/" class="portfolio-link" target="_blank">
+                            <div class="portfolio-image">
+                                <img src="public/foto site dentista.png" alt="Portfólio: site para dentista com foco em conversão" loading="lazy">
+                                <div class="portfolio-badge">SITE DENTISTA</div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Site Dr. Antonio Carlos</h3>
+                                <p class="portfolio-description">Presença digital profissional e moderna.</p>
+                                <button class="btn-portfolio">Ver Projeto →</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Por que escolher trabalhar comigo Section -->
+         <section class="section benefits-section" id="beneficios">
             <div class="container">
                 <div class="section-header scroll-reveal">
                     <h2 class="section-title">
@@ -175,75 +305,8 @@
             </div>
         </section>
 
-        <!-- Portfolio Section -->
-        <section class="section portfolio-section">
-            <div class="container">
-                <div class="section-header scroll-reveal">
-                    <div class="badge">🚀 PORTFÓLIO</div>
-                    <h2 class="section-title">
-                        Projetos que uniram <span class="gradient-text">estratégia,</span><br>
-                        <span class="gradient-text">design</span> e <span class="gradient-text">resultado.</span>
-                    </h2>
-                </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item card-3d scroll-reveal stagger-1">
-                        <a href="https://marciacontabilidade.netlify.app/" class="portfolio-link" target="_blank">
-                            <div class="portfolio-image">
-                                <img src="public/Anotação 2025-08-18 174413.png" alt="Página de vendas - Infoproduto">
-                                <div class="portfolio-badge">Página de vendas</div>
-                            </div>
-                            <div class="portfolio-content">
-                                <h3 class="portfolio-title">Landing page</h3>
-                                <p class="portfolio-description">Landing page com storytelling e foco em conversão.</p>
-                                <button class="btn-portfolio">Ver Projeto →</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item card-3d scroll-reveal stagger-2">
-                        <a href="https://masterdecks.site/" class="portfolio-link" target="_blank">
-                            <div class="portfolio-image">
-                                <img src="/public/Anotação 2025-08-18 174329.png" alt="Página de vendas - Micro-SaaS">
-                                <div class="portfolio-badge">MICRO-SAAS</div>
-                            </div>
-                            <div class="portfolio-content">
-                                <h3 class="portfolio-title">Página de vendas</h3>
-                                <p class="portfolio-description">Automação e inteligência para negócios digitais.</p>
-                                <button class="btn-portfolio">Ver Projeto →</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item card-3d scroll-reveal stagger-3">
-                        <a href="https://layscarlanutri.netlify.app/" class="portfolio-link" target="_blank">
-                            <div class="portfolio-image">
-                                <img src="/public/Anotação 2025-08-18 174351.png" alt="Página de vendas - Produto Físico">
-                                <div class="portfolio-badge">Landing page</div>
-                            </div>
-                            <div class="portfolio-content">
-                                <h3 class="portfolio-title">página de conversão</h3>
-                                <p class="portfolio-description">Estrutura validada para converter leads em clientes.</p>
-                                <button class="btn-portfolio">Ver Projeto →</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item card-3d scroll-reveal stagger-4">
-                        <a href="https://marciacarla.netlify.app/" class="portfolio-link" target="_blank">
-                            <div class="portfolio-image">
-                                <img src="/public/Anotação 2025-08-18 175120.png" alt="Página de vendas - Serviços">
-                                <div class="portfolio-badge">link na bio</div>
-                            </div>
-                            <div class="portfolio-content">
-                                <h3 class="portfolio-title">página de link na biografia</h3>
-                                <p class="portfolio-description">Presença digital profissional e moderna.</p>
-                                <button class="btn-portfolio">Ver Projeto →</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Testimonials Section -->
-        <section class="section testimonials-section">
+        <section class="section testimonials-section" id="depoimentos">
             <div class="container z-10 mx-auto">
                 <div class="section-header scroll-reveal">
                     <div class="badge">Depoimentos</div>
@@ -367,7 +430,7 @@
         </section>
 
         <!-- Pricing Section -->
-        <section class="section pricing-section">
+        <section class="section pricing-section" id="planos">
             <div class="container">
                 <div class="section-header scroll-reveal">
                     <div class="badge">💰 Investimento</div>
@@ -401,11 +464,11 @@
                                 <p class="pricing-description">Solução completa para sua presença digital</p>
                             </div>
                             <ul class="pricing-features">
-                                <li>✓ Até 10 páginas personalizadas</li>
+                                <li>✓ Até 3 páginas personalizadas</li>
                                 <li>✓ Sistema de gerenciamento de conteúdo</li>
                                 <li>✓ Integração com redes sociais</li>
                                 <li>✓ SEO avançado</li>
-                                <li>✓ Suporte por 3 meses</li>
+                                <li>✓ Suporte por 5 meses</li>
                                 <li>✓ Entrega em 15 dias</li>
                             </ul>
                             <a href="https://wa.me/5598970005227?text=Oi%20vim%20pelo%20site,%20gostaria%20de%20fazer%20um%20projeto%20de%20Site%20Completo" target="_blank" class="btn-primary btn-magnetic">Escolher Plano</a>
@@ -435,11 +498,11 @@
         </section>
 
         <!-- About Me Section -->
-        <section class="section about-section">
+        <section class="section about-section" id="sobre">
             <div class="container">
                 <div class="about-grid">
                     <div class="about-image scroll-reveal-left">
-                        <img src="/public/WhatsApp Image 2025-08-18 at 17.36.55.jpeg" alt="Thelves Andrade" class="about-photo">
+                        <img src="public/file-_1_.jpg" alt="Foto de Thelves Andrade trabalhando em projetos web" class="about-photo" loading="lazy">
                         <div class="floating-element-1"></div>
                         <div class="floating-element-2"></div>
                     </div>
@@ -471,7 +534,7 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="section cta-section">
+        <section class="section cta-section" id="contato">
             <div class="container">
                 <div class="cta-content scroll-reveal">
                     <h2 class="cta-title">Pronto para Transformar seu Negócio?</h2>
@@ -529,6 +592,6 @@
         </footer>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
