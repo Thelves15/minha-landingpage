@@ -78,3 +78,4 @@ Checklist adicional (opcional):
 
 ## Licença
 Projeto de uso profissional próprio. Reutilize sob sua responsabilidade e mantenha créditos quando aplicável.
+
